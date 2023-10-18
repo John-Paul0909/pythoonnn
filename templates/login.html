@@ -1,0 +1,24 @@
+<html>
+<head>
+<meta charset="=UTF-8">
+<title>CodeCirlce</title>
+</head>
+<body>
+    <h1>CodeCirlce login</h1>
+    <form action="{{url_for('login')}}" method="post">
+    <label>firstname</label>
+    <input type="text" name ="firstname" id="firstname" required>
+    <label>lastname</label>
+    <input type="text" name ="lastname" id="lastname" required>
+    <label>email</label>
+    <input type="email" name ="email" id="email" required>
+    <label>password</label>
+    <input type="password" name ="password" id="password" required>
+     <div class="btn-field">
+            <button id="registerBtn" type="submit" value="Submit" >
+              Register
+            </button>
+          </div>
+    </form>
+</body>
+</html>
